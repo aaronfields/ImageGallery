@@ -9,7 +9,8 @@ import retrofit2.http.GET;
 
 public interface FlickrRecentService {
 
-    @GET("rest/?method=flickr.photos.getRecent&api_key=2fbd51c2f84ff08464b5a5bdbe6e89be&format=json&nojsoncallback=1&auth_token=72157671368745794-3a3f131149d72faa&api_sig=757e2fd9d58b0fd0d5e4b41d5cb615ef")
+    @GET("rest/?method=flickr.photos.getRecent&api_key=54c1da9d17aca27d9f39d4fbbb282cf2&format=json&nojsoncallback=1")
     Call<PhotosResponse> getAll();
+
 
 }
